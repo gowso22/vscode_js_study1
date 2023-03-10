@@ -13,7 +13,7 @@ boy.showName();
 
 let man = boy; // 같은 객체를 boy로도 접근 가능하고 man으로도 접근가능
 
-boy = null; 
+boy = null; // this 사용을 위해 null로 지정
 
 man.showName();
 
